@@ -87,9 +87,6 @@ html{
   color: black;
 }
 
-
-
-
 .bayan-item__input:checked ~ .bayan-item__header span{
   background-image: url(./assets/icons/xmark.svg);
 }
