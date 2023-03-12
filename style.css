@@ -83,6 +83,11 @@ html{
   width: 100%;
 }
 
+.bayan__content:hover .bayan-item__header{
+  color: black;
+}
+
+
 
 
 .bayan-item__input:checked ~ .bayan-item__header span{
