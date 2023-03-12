@@ -34,3 +34,49 @@ html{
   font-weight: 700;
   line-height: 5rem;
 }
+
+.bayan-item{
+  border-top: 0.1rem solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bayan-item__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 3em;
+  color: dodgerblue;
+  cursor: url('./assets/icons/cursor.svg'),auto ;
+}
+
+.bayan-item__header span{
+  display: none;
+  width: 1rem;
+  height: 1rem;
+  background-image: url(./assets/icons/plus.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.bayan-item__image{
+  width: 0;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: width 0.3s ease;
+}
+
+.bayan-item__image img{
+  width: 100%;
+}
