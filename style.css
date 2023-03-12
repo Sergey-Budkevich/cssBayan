@@ -83,9 +83,7 @@ html{
   width: 100%;
 }
 
-.bayan__content:hover .bayan-item__header{
-  color: black;
-}
+
 
 .bayan-item__input:checked ~ .bayan-item__header span{
   background-image: url(./assets/icons/xmark.svg);
@@ -93,4 +91,15 @@ html{
 
 .bayan-item__input:checked ~ .bayan-item__header{
   color: black;
+}
+
+.bayan-item__input:checked ~ .bayan-item__image{
+  border: 0.2rem solid black;
+  width: 40%;
+  margin-bottom: 3rem;
+}
+
+.bayan-item__image:hover {
+  transform: rotate(360deg);
+  transition: transform 3s ease;
 }
