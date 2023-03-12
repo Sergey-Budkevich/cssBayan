@@ -14,3 +14,23 @@ html{
   font-size: 1.4vw;
 }
 
+.bayan{
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: bisque;
+  padding: 3rem 0;
+}
+
+.bayan__content{
+  width: 50rem;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.bayan__title{
+  font-size: 2.5rem;
+  letter-spacing: 0.08rem;
+  font-family: 'Rubik';
+  font-weight: 700;
+  line-height: 5rem;
+}
