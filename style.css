@@ -43,6 +43,10 @@ html{
   flex-wrap: wrap;
 }
 
+.bayan-item__input{
+  appearance: none;
+}
+
 .bayan-item__header{
   display: flex;
   align-items: center;
@@ -66,8 +70,6 @@ html{
   background-size: cover;
 }
 
-
-
 .bayan-item__image{
   width: 0;
   margin: 0 auto;
@@ -80,3 +82,8 @@ html{
 .bayan-item__image img{
   width: 100%;
 }
+
+.bayan__content:hover .bayan-item__header{
+  color: black;
+}
+
